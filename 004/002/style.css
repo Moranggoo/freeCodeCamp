@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@keyframes corpo {
+    from{background-color: blue;}
+    to{background-color: yellow;}
+} 
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+
+#container {
+    background-color: blue;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    display: block;
+    padding: 10px;
+    margin: auto;
+}
+#teste {
+    background-color: orangered;
+}
+button:active #container{
+    background-color: black;
+}

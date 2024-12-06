@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header {
+    background-color: rosybrown;
+
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+nav {
+    padding: 20px;
+}
+nav a {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+#welcome-section {
+    background-color: aqua;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    flex-wrap: nowrap;
+}
+#projects {
+    background-color: blue;
+    padding: 10px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    place-items: center;
+}
+#projects div{
+    background-color: black;
+    width: 90%;
+}
+#projects img {
+    width: 100%;   
+}
+#contato {
+    background-color: blueviolet;
+    height: 100vh;
+}
+#contato a {
+    text-decoration: none;
+    color: black;
+}
+svg {
+    width: 30px;
+    vertical-align: middle;
+    color: white;
+}
